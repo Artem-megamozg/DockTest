@@ -1,5 +1,5 @@
 Metadata-Version: 2.1
-Name: vk-captchasolver
+Name: vk_captchasolver
 Version: 1.0.4
 Summary: VKontakte captcha solver with 91% accuracy right.
 Home-page: https://github.com/DedInc/vk_captchasolver

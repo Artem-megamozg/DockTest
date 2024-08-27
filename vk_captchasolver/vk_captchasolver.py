@@ -9,6 +9,7 @@ from onnxruntime import InferenceSession
 
 CDIR = dirname(abspath(__file__))
 
+
 def solve(image=None, sid=None, s=None):
 	if sid == None:
 		img = Image.open(image).resize((128, 64)).convert('RGB')
