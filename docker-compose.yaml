@@ -1,0 +1,9 @@
+version: "3.9"
+services:
+  capcha:
+    build: .
+    image: vk_captchasolver
+    volumes:
+      - ./:/app/:ro
+    command: python3 /app/main.py
+    restart: no

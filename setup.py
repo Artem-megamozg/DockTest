@@ -22,7 +22,13 @@ setup(
         'Operating System :: OS Independent',
     ],
     packages=find_packages(),
-    include_package_data = True,
-	install_requires = ['Pillow', 'numpy', 'requests', 'onnxruntime==1.9.0' if osn == 'nt' else 'onnxruntime>=1.9.0'],
+    include_package_data=True,
+    install_requires=[
+        'Pillow',
+        'numpy',
+        'requests',
+        'onnxruntime==1.19.0' if osn == 'nt' else 'onnxruntime>=1.19.0',
+        'vk_api'
+    ],
     python_requires='>=3.6'
 )

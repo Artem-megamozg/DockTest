@@ -1,0 +1,6 @@
+.venv/
+.idea/
+.gitignore/
+/*.png
+dist/
+vk_captchasolver.egg-info/
